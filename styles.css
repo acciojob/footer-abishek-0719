@@ -1,1 +1,115 @@
-/* your code here */
+footer {
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  padding: 30px 20px 0;
+}
+
+.content {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.logo-details .logo_name {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.media-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.media-icons a {
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #fff;
+}
+
+.media-icons a:nth-child(1) { background: #3b5998; }  /* Facebook */
+.media-icons a:nth-child(2) { background: #1da1f2; }  /* Twitter */
+.media-icons a:nth-child(3) { background: #e4405f; }  /* Instagram */
+.media-icons a:nth-child(4) { background: #0077b5; }  /* LinkedIn */
+.media-icons a:nth-child(5) { background: #ff0000; }  /* YouTube */
+
+.link-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.box {
+  flex: 1 1 200px;
+}
+
+.box h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.box h3::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 2px;
+  background: #fff;
+  margin-top: 5px;
+}
+
+.box ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.box ul li {
+  margin: 8px 0;
+}
+
+.box ul li a {
+  color: #bbb;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.box ul li a:hover {
+  color: #fff;
+}
+
+.bottom-details {
+  background: #222;
+  margin-top: 20px;
+  padding: 10px 20px;
+}
+
+.bottom-text {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 14px;
+  color: #aaa;
+}
+
+.bottom-text a {
+  color: #aaa;
+  text-decoration: none;
+}
+
+.bottom-text a:hover {
+  color: #fff;
+}
